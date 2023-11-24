@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    background-color: lightslategrey;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+button{
+    background-color:rgb(43, 120, 168);
+    width: 30%;
+    height: 60px;
+    color: azure;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

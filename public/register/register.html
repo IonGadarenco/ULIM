@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Messanger</title>
+  <link rel="stylesheet" href="./register.css">
+</head>
+<body>
+    <div class="modal">
+        <h1>Register</h1>
+        <form method="post" action="/poster/register" id="myForm">
+            <label for="firstName">Nume:</label>
+            <input type="text" name="firstName" id="firstName" required placeholder="Ion">
+            <br>
+            <label for="lastName">Prenume:</label>
+            <input type="text" name="lastName" id="lastName" required placeholder="Gadarenco">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required placeholder="ion.gadarenco@gmail.com">
+            <br>
+            <label for="phone">Telefon:</label>
+            <input type="tel" name="phone" id="phone" required placeholder="068857503">
+            <br>
+            <label for="imgURL">Image URL:</label>
+            <input type="url" name="imgURL" id="imgURL" required placeholder="http/:...">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" required placeholder="password">
+            <br>
+            <input type="submit" value="Trimite">
+        </form>
+    </div>
+    <div class="success" id="success">
+        <h1>Success !</h1>
+    </div>
+  
+    <script src="./register.js"></script>
+</body>
+</html>
